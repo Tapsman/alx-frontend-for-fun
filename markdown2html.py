@@ -25,7 +25,7 @@ if __name__ == '__main__':
     """
     with open(sys.argv[1]) as read:
         with open(sys.argv[2], "w") as html:
-            disorderly_start, orderly_start, paragraph = False, False = False
+            disorderly_start, orderly_start, paragraph = False, False, False
             for belt in read:
                 belt = belt.replace("**", "<b>", 1)
                 belt = belt.replace("**", "<b>", 1)
