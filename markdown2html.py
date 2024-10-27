@@ -52,8 +52,8 @@ if __name__ == '__main__':
                 length = len(belt)
                 headings = belt.lstrip('#')
                 head_num = length - len(headings)
-                ordered = beltlstrip('-')
-                disorderly_num = length - len(disoreded)
+                ordered = belt.lstrip('-')
+                disorderly_num = length - len(disorderly_num)
                 ordered = belt.lstrip('*')
                 ordered_num = len(ordered)
                 """
