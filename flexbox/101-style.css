@@ -1,0 +1,31 @@
+/* ============ FLEX BOX =========== */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1, .box5 {
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+}
+
+/* ============== Box 1 ========= */
+
+.box1 {
+  background-color: turquoise;
+}
+
+.box5 {
+  background-color: rgb(255, 174, 0);
+}
