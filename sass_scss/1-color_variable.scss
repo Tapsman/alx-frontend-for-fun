@@ -1,0 +1,11 @@
+/* It defines the Sass variable for text color */
+$text-color: #3D3D3D;
+
+/* And then apply text color to the body */
+body {
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+}
