@@ -1,5 +1,4 @@
 /* file sorts the variable $list_to_sort and prints the sorted list */
-
 @import '103-sort_list.scss';
 @each $name in $list_to_sort {
   @debug #{$name};
