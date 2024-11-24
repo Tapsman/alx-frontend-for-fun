@@ -1,0 +1,15 @@
+/* This is the extended List CSS */
+
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info;
+  color: #00FF00;
+}
+
+.warning {
+  @extend .infor;
+  color: #FF0000;
+}
